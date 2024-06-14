@@ -331,6 +331,7 @@
              </div>
           </div>
        </div> -->
+       <pie_pagina/>
     </div>
-    
-    </template>
+   
+</template>

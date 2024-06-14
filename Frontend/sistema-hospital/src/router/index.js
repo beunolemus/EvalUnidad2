@@ -6,6 +6,8 @@ import Persona from '@/components/persona.vue'
 
 import RegisterC from '@/components/RegisterC.vue'
 
+import PiePagina from '@/components/Pie-Pagina.vue'
+
 
 
 const router = createRouter({
@@ -28,7 +30,9 @@ const router = createRouter({
       children:[
         {path:'/persona',name:'persona', component : Persona},
 
-        {path:"/registerC",name:"registerC",component:RegisterC}
+        {path:"/registerC",name:"registerC",component:RegisterC},
+
+        {path:"/pie_pagina",name:"pie_pagina",component:PiePagina}
       ]
     }
   ]
